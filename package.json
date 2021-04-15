@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkamble35/team-profile-generator.git"
+  },
+  "author": "Priyanka Kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkamble35/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/pkamble35/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^24.0.0"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  }
+}

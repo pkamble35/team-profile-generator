@@ -1,5 +1,5 @@
-
-const populateQuestionnaire = require("./lib/questionnaire.js");
+const populateQuestionnaire = require("./src/questionnaire.js");
+const inquirer = require("inquirer");
 
 
 function init() {
